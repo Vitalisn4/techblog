@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlog - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>TechBlog</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to TechBlog</h2>
+                <p>Your source for the latest in technology news and insights</p>
+                <a href="blog.html" class="btn">Read Our Blog</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-posts">
+        <div class="container">
+            <h2 class="section-title">Featured Posts</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="images/blog-post-1.jpg" alt="AI in Healthcare">
+                        <div class="slide-content">
+                            <h3>AI in Healthcare</h3>
+                            <p>How artificial intelligence is transforming medical diagnosis and treatment.</p>
+                            <a href="post.html?id=1" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/blog-post-2.jpg" alt="The Future of Web Development">
+                        <div class="slide-content">
+                            <h3>The Future of Web Development</h3>
+                            <p>Exploring upcoming trends and technologies in web development.</p>
+                            <a href="post.html?id=2" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/blog-post-3.jpg" alt="Cybersecurity Essentials">
+                        <div class="slide-content">
+                            <h3>Cybersecurity Essentials</h3>
+                            <p>Protecting your digital assets in an increasingly connected world.</p>
+                            <a href="post.html?id=3" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn">&lt;</button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="next-btn">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-posts">
+        <div class="container">
+            <h2 class="section-title">Recent Posts</h2>
+            <div class="posts-grid">
+                <div class="post-card">
+                    <img src="images/blog-post-4.jpg" alt="5G Technology">
+                    <div class="post-content">
+                        <h3>5G Technology</h3>
+                        <p class="post-meta">May 5, 2025 | Technology</p>
+                        <p>Understanding the impact of 5G on our connected world.</p>
+                        <a href="post.html?id=4" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <img src="images/blog-post-5.jpg" alt="Cloud Computing">
+                    <div class="post-content">
+                        <h3>Cloud Computing</h3>
+                        <p class="post-meta">May 3, 2025 | Technology</p>
+                        <p>How businesses are leveraging cloud solutions for growth.</p>
+                        <a href="post.html?id=5" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <img src="images/blog-post-6.jpg" alt="Blockchain Basics">
+                    <div class="post-content">
+                        <h3>Blockchain Basics</h3>
+                        <p class="post-meta">April 28, 2025 | Technology</p>
+                        <p>A beginner's guide to understanding blockchain technology.</p>
+                        <a href="post.html?id=6" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <a href="blog.html" class="btn btn-secondary">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest articles and news.</p>
+            <form id="newsletter-form" class="newsletter-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+            <div id="newsletter-message"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>TechBlog</h2>
+                    <p>Your source for tech insights</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/techblog" target="_blank" class="social-icon">FB</a>
+                        <a href="https://twitter.com/techblog" target="_blank" class="social-icon">TW</a>
+                        <a href="https://instagram.com/techblog" target="_blank" class="social-icon">IG</a>
+                        <a href="https://linkedin.com/company/techblog" target="_blank" class="social-icon">LI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechBlog. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>

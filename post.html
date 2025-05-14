@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlog - Article</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>TechBlog</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <article class="blog-post" id="blog-post-content">
+        <!-- Post content will be loaded dynamically -->
+        <div class="container">
+            <div class="post-header">
+                <h1 id="post-title">Article Title</h1>
+                <div class="post-meta">
+                    <span id="post-date">May 7, 2025</span> | 
+                    <span id="post-category">Technology</span> | 
+                    <span id="post-author">By John Doe</span>
+                </div>
+            </div>
+            
+            <div class="post-featured-image">
+                <img id="post-image" src="images/blog-post-1.jpg" alt="Blog Post">
+            </div>
+            
+            <div class="post-content" id="post-content">
+                <!-- Content will be loaded dynamically -->
+                <p>Loading article content...</p>
+            </div>
+            
+            <div class="post-tags" id="post-tags">
+                <!-- Tags will be loaded dynamically -->
+            </div>
+            
+            <div class="post-share">
+                <h3>Share This Article</h3>
+                <div class="social-share">
+                    <a href="#" class="share-btn">Facebook</a>
+                    <a href="#" class="share-btn">Twitter</a>
+                    <a href="#" class="share-btn">LinkedIn</a>
+                    <a href="#" class="share-btn">Email</a>
+                </div>
+            </div>
+            
+            <div class="post-navigation">
+                <div class="prev-post" id="prev-post">
+                    <!-- Previous post link will be loaded dynamically -->
+                </div>
+                <div class="next-post" id="next-post">
+                    <!-- Next post link will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    <section class="related-posts">
+        <div class="container">
+            <h2>Related Articles</h2>
+            <div class="posts-grid" id="related-posts">
+                <!-- Related posts will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <section class="comments">
+        <div class="container">
+            <h2>Comments</h2>
+            <div class="comments-list" id="comments-list">
+                <!-- Comments will be loaded dynamically -->
+                <p>No comments yet. Be the first to comment!</p>
+            </div>
+            
+            <div class="comment-form-container">
+                <h3>Leave a Comment</h3>
+                <form id="comment-form" class="comment-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment</label>
+                        <textarea id="comment" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit Comment</button>
+                </form>
+                <div id="comment-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>TechBlog</h2>
+                    <p>Your source for tech insights</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/techblog" target="_blank" class="social-icon">FB</a>
+                        <a href="https://twitter.com/techblog" target="_blank" class="social-icon">TW</a>
+                        <a href="https://instagram.com/techblog" target="_blank" class="social-icon">IG</a>
+                        <a href="https://linkedin.com/company/techblog" target="_blank" class="social-icon">LI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechBlog. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/post.js"></script>
+</body>
+</html>
