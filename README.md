@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-Visit the live website: [TechBlog on Vercel](https://techblog-demo.vercel.app) (Replace with your actual Vercel URL after deployment)
+Visit the live website: [TechBlog on Vercel](https://techblog-liart.vercel.app) 
 
 ## 📋 Project Overview
 
@@ -36,14 +36,15 @@ TechBlog is a responsive, multi-page blog website built with pure HTML, CSS, and
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+
+   ```
    git clone https://github.com/yourusername/techblog.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```
    cd techblog
-   \`\`\`
+   ```
 
 3. Open the project:
    - For viewing: Open `index.html` in your web browser
@@ -63,7 +64,7 @@ TechBlog is a responsive, multi-page blog website built with pure HTML, CSS, and
 
 The project structure is organized as follows:
 
-\`\`\`
+```
 techblog/
 ├── index.html              # Home page
 ├── blog.html               # Blog listing page
@@ -82,14 +83,7 @@ techblog/
 │   ├── form-validation.js  # Form validation
 │   └── accordion.js        # Accordion functionality
 └── images/                 # Image assets
-\`\`\`
-
-To modify the website:
-
-1. Edit HTML files to change content and structure
-2. Modify CSS files to update styling
-3. Update JavaScript files to change functionality
-4. Replace images in the `images` directory as needed
+```
 
 ## 📱 Responsive Design
 
@@ -128,24 +122,6 @@ The responsive design is implemented using:
 - Contact form with validation
 - Interactive FAQ accordion
 
-## 🌐 Deployment
-
-The website is deployed on Vercel, a platform optimized for frontend projects.
-
-### Deployment Steps
-
-1. Create a Vercel account at [vercel.com](https://vercel.com)
-2. Connect your GitHub repository to Vercel
-3. Configure the project settings (no special configuration needed for static sites)
-4. Deploy the project
-5. Your site will be available at a unique URL (e.g., `your-project.vercel.app`)
-
-### Custom Domain (Optional)
-
-To use a custom domain:
-1. Purchase a domain from a domain registrar
-2. Add the domain in your Vercel project settings
-3. Configure DNS settings as instructed by Vercel
 
 ## 🛠️ Technologies Used
 
@@ -170,18 +146,12 @@ Contributions are welcome! To contribute:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
-
-- Images sourced from [Unsplash](https://unsplash.com)
-- Fonts from [Google Fonts](https://fonts.google.com)
-- Icons inspired by various open-source icon libraries
-
 ## 📞 Contact
 
 For questions or feedback about this project, please contact:
 - Email: info@techblog.com
 - Twitter: [@techblog](https://twitter.com/techblog)
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
+- GitHub: [github.com/vitalisn4](https://github.com/vitalisn4)
 
 ---
 
