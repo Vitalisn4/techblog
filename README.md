@@ -38,7 +38,7 @@ TechBlog is a responsive, multi-page blog website built with pure HTML, CSS, and
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/techblog.git
+   git clone https://github.com/Vitalisn4/techblog.git
    ```
 
 2. Navigate to the project directory:
